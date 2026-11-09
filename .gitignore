@@ -1,0 +1,21 @@
+# Secrets and local config - never commit
+.env
+.env.*
+!.env.example
+
+# Local run output (audit logs, evidence bundles)
+.local/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

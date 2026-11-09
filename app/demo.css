@@ -1,0 +1,30 @@
+:root{--bg:#08101d;--panel:#111b30;--text:#eaf1ff;--muted:#a9badc;--line:rgba(148,163,184,.18);--accent:#7dd3fc;--ok:#86efac;--warn:#fbbf24;--bad:#fda4af;--max:1180px}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,sans-serif;background:radial-gradient(circle at top left,#13203a,#08101d 40%);color:var(--text);line-height:1.5}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+.top{display:flex;justify-content:space-between;gap:18px;align-items:end;padding:28px 20px 18px;border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--ok);text-transform:uppercase;letter-spacing:.08em;font-size:.75rem;font-weight:700;margin:0 0 8px}
+h1{margin:0 0 8px;font-size:clamp(1.6rem,3vw,2.4rem);line-height:1.1} h2{margin:0 0 12px;font-size:1.15rem} .sub{margin:0;color:var(--muted);max-width:70ch}
+.scenario{min-width:280px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px}
+.scenario label{display:block;color:var(--muted);font-size:.9rem;margin-bottom:6px}
+select,input,textarea{width:100%;background:#091326;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit}
+.grid{display:grid;grid-template-columns:1fr;gap:14px;padding:18px 20px 30px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}
+.verdict-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.badge{padding:8px 14px;border-radius:999px;font-weight:800;letter-spacing:.04em;border:1px solid var(--line);background:rgba(255,255,255,.04)}
+.badge.PASS{color:#062014;background:rgba(134,239,172,.92);border-color:transparent}
+.badge.RISK{color:#2a1d00;background:rgba(251,191,36,.92);border-color:transparent}
+.badge.FAIL,.badge.NOT_READY{color:#35070f;background:rgba(253,164,175,.92);border-color:transparent}
+.summary{color:var(--muted);margin:8px 0 0}.meta{margin-top:12px;color:var(--muted);font-size:.95rem}
+.table-wrap{overflow:auto} table{width:100%;border-collapse:collapse;font-size:.94rem}
+th,td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left} th{color:var(--text);background:rgba(255,255,255,.02)}
+.pill{display:inline-block;padding:2px 8px;border-radius:999px;font-weight:700;font-size:.78rem;text-transform:uppercase}
+.pass{background:rgba(134,239,172,.15);color:var(--ok)} .risk{background:rgba(251,191,36,.15);color:var(--warn)} .fail,.not_ready{background:rgba(253,164,175,.15);color:var(--bad)}
+.muted{color:var(--muted)} .form{display:grid;gap:10px;margin-top:10px} .form label{display:grid;gap:6px;color:var(--muted);font-size:.93rem}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--text);font:inherit;font-weight:600;cursor:pointer}
+.btn.primary{background:linear-gradient(135deg,var(--accent),#60a5fa);color:#06111f;border-color:transparent}
+.msg{margin-top:10px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);min-height:20px}
+.msg.error{color:var(--bad);background:rgba(253,164,175,.08)} .msg.ok{color:var(--ok);background:rgba(134,239,172,.08)}
+.audit{margin:0;background:#091326;border:1px solid var(--line);border-radius:12px;padding:12px;overflow:auto;max-height:320px;color:#dbeafe;font-size:.88rem}
+.footer{padding:0 20px 30px;color:var(--muted);font-size:.93rem}
+@media (max-width:900px){.top{flex-direction:column;align-items:stretch}.scenario{min-width:0}}

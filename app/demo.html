@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>P1 — Campaign v8 Pre-flight & Ops Copilot (Demo)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./demo.css" />
+</head>
+<body>
+  <header class="top wrap">
+    <div>
+      <p class="eyebrow">P1 demo UI · Mock/read-only · Synthetic data · No auto-send</p>
+      <h1>Campaign v8 Pre-flight &amp; Ops Copilot</h1>
+      <p class="sub">Agents check. Humans decide. Every decision is logged. This UI demonstrates the verified Milestone 1 deterministic engine results.</p>
+    </div>
+    <div class="scenario">
+      <label for="scenarioSelect">Sample scenario</label>
+      <select id="scenarioSelect"></select>
+      <button id="runBtn" class="btn primary">Run pre-flight</button>
+    </div>
+  </header>
+
+  <main class="wrap grid">
+    <section class="panel verdict-panel">
+      <div class="verdict-head">
+        <h2>Verdict</h2>
+        <div id="verdictBadge" class="badge">—</div>
+      </div>
+      <p id="summary" class="summary">Choose a scenario and run pre-flight.</p>
+      <div id="campaignMeta" class="meta"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Check results</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Check</th><th>Severity</th><th>Result</th><th>Observed / threshold</th><th>Explanation</th></tr></thead>
+          <tbody id="checksBody"><tr><td colspan="5" class="muted">No run yet.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Human decision</h2>
+      <p class="muted">Release-impacting progression requires named approval. <strong>FAIL/NOT READY</strong> overrides require a written reason (≥ 15 chars) and create a distinct <code>approval.override</code> audit event.</p>
+      <form id="approvalForm" class="form">
+        <label>Approver name<input id="approver" type="text" placeholder="Named Approver" /></label>
+        <label>Reason / override reason<textarea id="reason" rows="3" placeholder="Explain the decision..."></textarea></label>
+        <div class="actions">
+          <button type="submit" class="btn primary">Approve / record decision</button>
+          <button type="button" id="rejectBtn" class="btn">Reject</button>
+        </div>
+      </form>
+      <div id="approvalMsg" class="msg" aria-live="polite"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Audit trail</h2>
+      <p class="muted">Append-only events. Override events are highlighted.</p>
+      <pre id="auditLog" class="audit">No events yet.</pre>
+    </section>
+  </main>
+
+  <footer class="wrap footer">Prototype demo UI. Deterministic checks PF-01–PF-08, mock adapter, synthetic data only. No Adobe credentials, no auto-send/execute.</footer>
+  <script src="./demo.js"></script>
+</body>
+</html>

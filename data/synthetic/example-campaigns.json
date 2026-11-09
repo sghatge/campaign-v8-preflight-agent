@@ -1,0 +1,65 @@
+[
+  {
+    "campaign_id": "synthetic-cmp-pass-001",
+    "name": "Synthetic Spring Reactivation - Pass",
+    "channel": "email",
+    "schedule": {"send_at": "2026-11-15T09:00:00Z", "timezone": "Europe/London"},
+    "audience": {
+      "target_count": 12500,
+      "baseline_count": 11800,
+      "suppression_applied": true,
+      "consent_filter_applied": true
+    },
+    "proof": {"status": "approved", "seed_list_present": true},
+    "content": {
+      "required_personalization_fields": ["first_name"],
+      "missing_mappings": [],
+      "unsubscribe_present": true,
+      "mirror_present": true
+    },
+    "workflow": {"status": "ready", "dependencies_ok": true, "pending_approvals": 0},
+    "expected_hint": "PASS"
+  },
+  {
+    "campaign_id": "synthetic-cmp-risk-002",
+    "name": "Synthetic Winback - Audience Drift Risk",
+    "channel": "email",
+    "schedule": {"send_at": "2026-11-16T08:30:00Z", "timezone": "Europe/Paris"},
+    "audience": {
+      "target_count": 6200,
+      "baseline_count": 11000,
+      "suppression_applied": true,
+      "consent_filter_applied": true
+    },
+    "proof": {"status": "approved", "seed_list_present": true},
+    "content": {
+      "required_personalization_fields": ["first_name", "city"],
+      "missing_mappings": [],
+      "unsubscribe_present": true,
+      "mirror_present": true
+    },
+    "workflow": {"status": "ready", "dependencies_ok": true, "pending_approvals": 0},
+    "expected_hint": "RISK (PF-02 audience drift)"
+  },
+  {
+    "campaign_id": "synthetic-cmp-fail-003",
+    "name": "Synthetic Black Friday Teaser - Fail",
+    "channel": "email",
+    "schedule": {"send_at": "2026-11-10T07:00:00Z", "timezone": "Europe/Berlin"},
+    "audience": {
+      "target_count": 48000,
+      "baseline_count": 47000,
+      "suppression_applied": false,
+      "consent_filter_applied": true
+    },
+    "proof": {"status": "not_sent", "seed_list_present": false},
+    "content": {
+      "required_personalization_fields": ["first_name"],
+      "missing_mappings": ["first_name"],
+      "unsubscribe_present": true,
+      "mirror_present": false
+    },
+    "workflow": {"status": "pending", "dependencies_ok": false, "pending_approvals": 1},
+    "expected_hint": "FAIL (suppression, proof/policy, personalization, mirror, workflow readiness)"
+  }
+]

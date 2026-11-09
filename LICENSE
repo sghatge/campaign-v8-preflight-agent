@@ -1,0 +1,19 @@
+LICENSE PLACEHOLDER - CHOOSE BEFORE MAKING THE REPO PUBLIC
+
+No license has been selected yet. Until one is added, default copyright applies:
+others may view the code on GitHub but have no right to use, copy or modify it.
+
+Options (pick one, then replace this whole file with its full text):
+
+  - MIT        Permissive; maximum reuse; common for portfolio projects.
+                 https://choosealicense.com/licenses/mit/
+  - Apache-2.0 Permissive with an explicit patent grant.
+                 https://choosealicense.com/licenses/apache-2.0/
+  - No license Keep "all rights reserved" if you want showcase-only visibility.
+
+Fastest path on GitHub: Add file > Create new file > name it LICENSE >
+"Choose a license template" > select > set year 2026 and copyright holder
+"Sangram Ghatge" > commit.
+
+Before choosing, confirm none of the code, check logic or docs is owned by a
+current or former employer.
