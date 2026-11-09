@@ -123,7 +123,7 @@ def run_scenario(campaign: dict, policy: dict | None = None, adapter_mode: str =
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Run P1 Campaign v8 pre-flight checks on synthetic scenarios (mock adapter).")
+    parser = argparse.ArgumentParser(description="Run Adobe Campaign v8 pre-flight checks on synthetic scenarios (mock adapter).")
     parser.add_argument("--scenario", required=True, help="campaign_id in the synthetic data file")
     parser.add_argument("--data", default=str(Path(__file__).resolve().parents[1] / "data" / "synthetic" / "example-campaigns.json"))
     parser.add_argument("--audit", default=None, help="Optional JSONL audit log path")

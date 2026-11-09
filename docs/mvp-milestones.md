@@ -1,4 +1,4 @@
-# MVP Milestones — P1 Campaign v8 Pre-flight & Ops Copilot
+# MVP Milestones — P1 Adobe Campaign v8 Pre-flight & Ops Copilot
 
 Assumes read-only MVP, mock adapter, synthetic data. Adjust dates/owners before use.
 

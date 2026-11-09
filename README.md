@@ -1,4 +1,4 @@
-# Campaign v8 Pre-flight Agent
+# Adobe Campaign v8 Pre-flight Agent
 
 [![CI](https://github.com/sghatge/campaign-v8-preflight-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/sghatge/campaign-v8-preflight-agent/actions/workflows/ci.yml)
 ![Python 3.10–3.13](https://img.shields.io/badge/python-3.10%E2%80%933.13-blue)
@@ -138,3 +138,5 @@ tests/       engine, CLI gate, PF-07, safety guards, demo parity
 
 ## License
 [MIT](LICENSE) © 2026 Sangram Ghatge
+
+*Adobe and Adobe Campaign are trademarks of Adobe Inc. This is an independent project, not affiliated with or endorsed by Adobe.*

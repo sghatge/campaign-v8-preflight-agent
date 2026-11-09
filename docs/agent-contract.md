@@ -1,4 +1,4 @@
-# Agent Contract — Campaign v8 Pre-flight & Ops Copilot (P1)
+# Agent Contract — Adobe Campaign v8 Pre-flight & Ops Copilot (P1)
 
 **Project:** `[REPO_P1]` (suggested name: `campaign-v8-preflight-agent`)  
 **Phase:** MVP read-only, mock adapter, synthetic data.

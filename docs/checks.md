@@ -1,4 +1,4 @@
-# Pre-flight Checks — Campaign v8 Ops Copilot (P1)
+# Pre-flight Checks — Adobe Campaign v8 Ops Copilot (P1)
 
 **Principle:** deterministic checks produce the verdict; explanations may be generated later but must not contradict rule results. Every check emits evidence.
 
