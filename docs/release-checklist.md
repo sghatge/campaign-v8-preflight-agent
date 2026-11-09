@@ -35,11 +35,11 @@ Applied from the portfolio-wide `RELEASE-CHECKLIST.md`.
 - ✅ Demo-parity test fails CI if `app/demo.js` drifts from the engine (proven by injecting drift).
 
 ## 5. Demo & publishing
-- ☐ Enable GitHub Pages (Settings → Pages → `main` / root) so the demo is at `https://sghatge.github.io/campaign-v8-preflight-agent/app/demo.html`.
-- ☐ Set the repo **Homepage** URL to the demo link.
+- ✅ GitHub Pages enabled from `main` / root; demo at `https://sghatge.github.io/campaign-v8-preflight-agent/app/demo.html`.
+- ✅ Repo Homepage URL set.
 - ☐ Test the demo on desktop and mobile.
 - ☐ Capture screenshots/GIF per `docs/screenshots-plan.md`.
-- ☐ **Choose a license** (see `LICENSE`). Until you do, the code is "all rights reserved" even though it's public.
+- ✅ License: MIT.
 
 ## 6. Portfolio integration
 - ☐ Add or update the project card on `sghatge.github.io` and in `SHOWCASE-ALL-IN-ONE.md`.

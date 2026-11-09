@@ -3,6 +3,7 @@
 [![CI](https://github.com/sghatge/campaign-v8-preflight-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/sghatge/campaign-v8-preflight-agent/actions/workflows/ci.yml)
 ![Python 3.10–3.13](https://img.shields.io/badge/python-3.10%E2%80%933.13-blue)
 ![Runtime deps: 0](https://img.shields.io/badge/runtime%20deps-0-brightgreen)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![Mode: read-only](https://img.shields.io/badge/mode-read--only%20%C2%B7%20no%20send-orange)
 
 **Agents check. Humans decide. Every decision is logged.**
@@ -136,4 +137,4 @@ tests/       engine, CLI gate, PF-07, safety guards, demo parity
 - [CRM Ops AI Skills](https://github.com/sghatge/crm-ops-ai-skills): evidence-first CRM ops workflows
 
 ## License
-Not yet chosen. See [LICENSE](LICENSE).
+[MIT](LICENSE) © 2026 Sangram Ghatge

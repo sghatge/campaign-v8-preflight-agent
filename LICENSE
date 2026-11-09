@@ -1,19 +1,21 @@
-LICENSE PLACEHOLDER - CHOOSE BEFORE MAKING THE REPO PUBLIC
+MIT License
 
-No license has been selected yet. Until one is added, default copyright applies:
-others may view the code on GitHub but have no right to use, copy or modify it.
+Copyright (c) 2026 Sangram Ghatge
 
-Options (pick one, then replace this whole file with its full text):
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  - MIT        Permissive; maximum reuse; common for portfolio projects.
-                 https://choosealicense.com/licenses/mit/
-  - Apache-2.0 Permissive with an explicit patent grant.
-                 https://choosealicense.com/licenses/apache-2.0/
-  - No license Keep "all rights reserved" if you want showcase-only visibility.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Fastest path on GitHub: Add file > Create new file > name it LICENSE >
-"Choose a license template" > select > set year 2026 and copyright holder
-"Sangram Ghatge" > commit.
-
-Before choosing, confirm none of the code, check logic or docs is owned by a
-current or former employer.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
