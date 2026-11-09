@@ -28,8 +28,8 @@ Applied from the portfolio-wide `RELEASE-CHECKLIST.md`.
 ## 4. Quality & reproducibility
 - ✅ 28 tests pass on Python 3.10, 3.11, 3.12 and 3.13 (run locally on Linux).
 - ✅ CI workflow covers Ubuntu + Windows × Python 3.10–3.13, plus a CLI gate smoke test.
-- ☐ **Confirm the first CI run is green on GitHub.** Windows runners weren't available here; the tz-database fallback was written for them, but Windows itself is untested.
-- ☐ Add the CI badge. It's already in the README; it renders once the repo exists at `sghatge/campaign-v8-preflight-agent`.
+- ✅ First CI run green on GitHub: all 8 test jobs (Ubuntu + Windows × 3.10–3.13) plus the gate smoke test.
+- ✅ CI badge in README. It shows to visitors once the repo is public.
 - ✅ "Run locally" commands verified, with expected output shown in the README.
 - ✅ Demo scenarios cover PASS, RISK, FAIL and override.
 - ✅ Demo-parity test fails CI if `app/demo.js` drifts from the engine (proven by injecting drift).
